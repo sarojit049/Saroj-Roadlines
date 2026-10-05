@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Phone, Mail, ArrowUp } from 'lucide-react';
 import { COMPANY } from '../config/company';
 
@@ -57,21 +58,39 @@ export default function Footer() {
           <div>
             <h4 className="footer-col-heading">Quick Navigation</h4>
             <ul className="footer-links">
-              <li><a href="#home" className="footer-link">Home</a></li>
-              <li><a href="#about" className="footer-link">About</a></li>
-              <li><a href="#fleet" className="footer-link">Fleet</a></li>
-              <li><a href="#services" className="footer-link">Services</a></li>
+              <li><a href="/#home" className="footer-link">Home</a></li>
+              <li><a href="/#about" className="footer-link">About Us</a></li>
+              <li><a href="/#fleet" className="footer-link">Transport Fleet</a></li>
+              <li><a href="/#services" className="footer-link">Services</a></li>
+              <li><a href="/#partnership-form" className="footer-link">Partner With Us</a></li>
+              <li><a href="/#contact" className="footer-link">Contact</a></li>
             </ul>
           </div>
 
-          {/* Col 3: Sectors & Coverage */}
+          {/* Col 3: Specialized Freight Routes */}
           <div>
-            <h4 className="footer-col-heading">Key Links</h4>
+            <h4 className="footer-col-heading">Freight Routes & Services</h4>
             <ul className="footer-links">
-              <li><a href="#industries" className="footer-link">Industries</a></li>
-              <li><a href="#service-areas" className="footer-link">Service Areas</a></li>
-              <li><a href="#partnership-form" className="footer-link">Partner With Us</a></li>
-              <li><a href="#contact" className="footer-link">Contact</a></li>
+              <li>
+                <Link to="/truck-transport-dankuni" className="footer-link">
+                  Truck Transport Dankuni
+                </Link>
+              </li>
+              <li>
+                <Link to="/kolkata-durgapur-transport" className="footer-link">
+                  Kolkata to Durgapur Transport
+                </Link>
+              </li>
+              <li>
+                <Link to="/25-ton-open-body-truck" className="footer-link">
+                  25 Ton Open Body Truck
+                </Link>
+              </li>
+              <li>
+                <Link to="/steel-transport-west-bengal" className="footer-link">
+                  Steel Transport West Bengal
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -107,7 +126,7 @@ export default function Footer() {
         {/* Footer Bottom Strip */}
         <div className="footer-bottom">
           <div>
-            © Saroj Roadlines. All rights reserved. Transport & Freight Services in Dankuni, Hooghly, Kolkata & West Bengal.
+            © Saroj Roadlines. All rights reserved. Open-Body Truck Transport in Dankuni, Hooghly, Kolkata, Durgapur & West Bengal.
           </div>
 
           <button

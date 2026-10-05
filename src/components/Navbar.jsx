@@ -27,14 +27,14 @@ export default function Navbar() {
   };
 
   const navLinks = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Fleet', href: '#fleet' },
-    { name: 'Services', href: '#services' },
-    { name: 'Industries', href: '#industries' },
-    { name: 'Service Areas', href: '#service-areas' },
-    { name: 'Partner With Us', href: '#partnership-form' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Home', href: '/#home' },
+    { name: 'About', href: '/#about' },
+    { name: 'Fleet', href: '/#fleet' },
+    { name: 'Services', href: '/#services' },
+    { name: 'Industries', href: '/#industries' },
+    { name: 'Service Areas', href: '/#service-areas' },
+    { name: 'Partner With Us', href: '/#partnership-form' },
+    { name: 'Contact', href: '/#contact' },
   ];
 
   return (
@@ -43,7 +43,7 @@ export default function Navbar() {
         <div className="container">
           <div className="navbar-inner">
             {/* Brand Logo */}
-            <a href="#home" className="nav-brand" title="Saroj Roadlines - Transport & Logistics in Dankuni & Hooghly">
+            <a href="/#home" className="nav-brand" title="Saroj Roadlines - Transport & Logistics in Dankuni & Hooghly">
               <img
                 src="/images/logo.png"
                 alt="Saroj Roadlines SRL Official Logo Dankuni Transport"
@@ -71,7 +71,7 @@ export default function Navbar() {
 
             {/* Header CTA Button */}
             <div className="header-actions" style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-              <a href="#partnership-form" className="btn btn-primary btn-sm" style={{ display: 'inline-flex' }}>
+              <a href="/#partnership-form" className="btn btn-primary btn-sm" style={{ display: 'inline-flex' }}>
                 <span>Partner With Us</span>
                 <ArrowRight size={16} className="icon-arrow" />
               </a>
@@ -99,7 +99,7 @@ export default function Navbar() {
       <div className={`mobile-nav-drawer ${mobileMenuOpen ? 'open' : ''}`}>
         <div>
           <div className="mobile-drawer-header">
-            <a href="#home" className="nav-brand" onClick={closeMobileMenu}>
+            <a href="/#home" className="nav-brand" onClick={closeMobileMenu}>
               <img
                 src="/images/logo.png"
                 alt="Saroj Roadlines SRL Official Logo"
@@ -148,7 +148,7 @@ export default function Navbar() {
             <span>Call {COMPANY.phone}</span>
           </a>
           <a
-            href="#partnership-form"
+            href="/#partnership-form"
             className="btn btn-secondary"
             style={{ width: '100%' }}
             onClick={closeMobileMenu}

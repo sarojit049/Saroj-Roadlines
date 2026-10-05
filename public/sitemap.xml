@@ -2,50 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sarojroadlines.vercel.app/</loc>
-    <lastmod>2026-09-20</lastmod>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://sarojroadlines.vercel.app/#about</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://sarojroadlines.vercel.app/#fleet</loc>
-    <lastmod>2026-09-20</lastmod>
+    <loc>https://sarojroadlines.vercel.app/truck-transport-dankuni</loc>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://sarojroadlines.vercel.app/#services</loc>
-    <lastmod>2026-09-20</lastmod>
+    <loc>https://sarojroadlines.vercel.app/kolkata-durgapur-transport</loc>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://sarojroadlines.vercel.app/#industries</loc>
-    <lastmod>2026-09-20</lastmod>
+    <loc>https://sarojroadlines.vercel.app/25-ton-open-body-truck</loc>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://sarojroadlines.vercel.app/#service-areas</loc>
-    <lastmod>2026-09-20</lastmod>
+    <loc>https://sarojroadlines.vercel.app/steel-transport-west-bengal</loc>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://sarojroadlines.vercel.app/#partnership-form</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://sarojroadlines.vercel.app/#contact</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
 </urlset>
